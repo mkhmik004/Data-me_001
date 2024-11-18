@@ -1,8 +1,10 @@
 import unittest
-from functions import (
-    reverse_list, count_occurrences, get_keys_with_value, merge_sorted_lists,
-    find_second_largest, is_anagram, flatten_list,remove_duplicates,find_common_elements
-)
+
+from functions import (count_occurrences, find_common_elements,
+                       find_second_largest, flatten_list, get_keys_with_value,
+                       is_anagram, merge_sorted_lists, remove_duplicates,
+                       reverse_list)
+
 
 class TestDataStructures(unittest.TestCase):
     def test_reverse_list(self):
